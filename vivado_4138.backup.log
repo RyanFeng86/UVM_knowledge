@@ -1,0 +1,84 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Dec  1 21:45:21 2024
+# Process ID: 4138
+# Current directory: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge
+# Command line: vivado
+# Log file: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/vivado.log
+# Journal file: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/vivado.jou
+# Running On: ryanfeng-System-Product-Name, OS: Linux, CPU Frequency: 800.000 MHz, CPU Physical cores: 24, Host memory: 67114 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -top control -part xc7z020clg400-2 -lint 
+Command: synth_design -top control -part xc7z020clg400-2 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22967
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 8241.473 ; gain = 290.773 ; free physical = 57779 ; free virtual = 60537
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'control' [/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.srcs/sources_1/new/control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'detect' [/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.srcs/sources_1/new/detect.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'detect' (1#1) [/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.srcs/sources_1/new/detect.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'control' (2#1) [/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.srcs/sources_1/new/control.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 8314.410 ; gain = 363.711 ; free physical = 57681 ; free virtual = 60445
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Dec  2 00:12:45 2024
+| Host         : ryanfeng-System-Product-Name running 64-bit Ubuntu 22.04.5 LTS
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++---------+--------------+----------+
+| Rule ID | # Violations | # Waived |
++---------+--------------+----------+
+
+
+INFO: [Synth 37-85] Total of 0 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 8332.223 ; gain = 381.523 ; free physical = 57661 ; free virtual = 60424
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon Dec  2 00:13:12 2024] Launched impl_1...
+Run output will be captured here: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  2 01:00:27 2024...

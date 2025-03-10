@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Sat Nov 30 02:41:39 2024
-# Process ID: 107905
+# Start of session at: Mon Dec  2 00:13:13 2024
+# Process ID: 23146
 # Current directory: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.runs/impl_1
 # Command line: vivado -log control.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source control.tcl -notrace
 # Log file: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.runs/impl_1/control.vdi
 # Journal file: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.runs/impl_1/vivado.jou
-# Running On: ryanfeng-System-Product-Name, OS: Linux, CPU Frequency: 5502.415 MHz, CPU Physical cores: 24, Host memory: 67114 MB
+# Running On: ryanfeng-System-Product-Name, OS: Linux, CPU Frequency: 2994.229 MHz, CPU Physical cores: 24, Host memory: 67114 MB
 #-----------------------------------------------------------
 source control.tcl -notrace

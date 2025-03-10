@@ -127,6 +127,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param chipscope.maxJobs 8
+  set_param synth.incrementalSynthesisCache ./.Xil/Vivado-4138-ryanfeng-System-Product-Name/incrSyn
   set_param runs.launchOptions { -jobs 16  }
   open_checkpoint control_routed.dcp
   set_property webtalk.parent_dir /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/light_led/light_led.cache/wt [current_project]

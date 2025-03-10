@@ -1,0 +1,16 @@
+QuestaSim-64 vopt 2021.2_1 Compiler 2021.05 May 15 2021
+Start time: 22:25:44 on Mar 09,2025
+vopt "+acc=npr" -suppress 10016 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.divide_by_three_TB xil_defaultlib.glbl -o divide_by_three_TB_opt 
+
+Top level modules:
+	divide_by_three_TB
+	glbl
+
+Analyzing design...
+-- Loading module divide_by_three_TB
+-- Loading module glbl
+-- Loading module divide_by_three
+Incremental compilation check found no design-units have changed.
+Optimized design name is divide_by_three_TB_opt
+End time: 22:25:45 on Mar 09,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

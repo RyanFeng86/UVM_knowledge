@@ -1,0 +1,13 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "gen_directory": "../../../../divide_f_by_3.gen/sources_1/bd/divide_by_three",
+      "name": "divide_by_three",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2.2"
+    },
+    "design_tree": {}
+  }
+}

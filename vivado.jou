@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Feb  7 22:24:47 2025
+# Process ID: 41014
+# Current directory: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge
+# Command line: vivado
+# Log file: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/vivado.log
+# Journal file: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/vivado.jou
+# Running On: ryanfeng-System-Product-Name, OS: Linux, CPU Frequency: 1247.095 MHz, CPU Physical cores: 24, Host memory: 67114 MB
+#-----------------------------------------------------------
+start_gui
+open_project /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/4bit_adder/4bit_adder.xpr
+update_compile_order -fileset sources_1

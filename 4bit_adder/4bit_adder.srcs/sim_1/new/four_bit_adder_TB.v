@@ -25,6 +25,7 @@ module four_bit_adder_TB;
 // Declare testbench signals
     reg [3:0] A;    // 4-bit input A
     reg [3:0] B;    // 4-bit input B
+    reg [3:0] a,b,c;
     reg Cin;        // Carry input
     wire [3:0] Sum; // 4-bit sum output
     wire Cout;      // Carry output
@@ -73,7 +74,14 @@ module four_bit_adder_TB;
         A = 4'b1111; B = 4'b1111; Cin = 1;
         #10;
         $display("%b  %b  %b  |  %b  %b", A, B, Cin, Sum, Cout);
-
+        
+        #10;
+        a=0;b=1;
+        c=#5 a+b;
+        $display("%d",c);
+        
+          
+        
         // End simulation
         $finish;
     end

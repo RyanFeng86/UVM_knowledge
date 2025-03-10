@@ -7,4 +7,5 @@ A    B    Cin  |  Sum  Cout
 1111  1111  0  |  1110  1
 1101  1010  1  |  1000  1
 1111  1111  1  |  1111  1
-$finish called at time : 60 ns : File "/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/4bit_adder/4bit_adder.srcs/sim_1/new/four_bit_adder_TB.v" Line 78
+ 1
+$finish called at time : 75 ns : File "/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/4bit_adder/4bit_adder.srcs/sim_1/new/four_bit_adder_TB.v" Line 86
