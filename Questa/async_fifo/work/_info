@@ -1,0 +1,182 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/ryanfeng
+T_opt
+!s110 1741764479
+V]V0c<2fNhlNc_2QN1mQz40
+Z2 04 9 4 work Normal_TB fast 0
+=1-000ae431a4f1-67d1377f-1be0-7b50
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2_1;73
+R1
+T_opt1
+!s110 1741768288
+VJZdgAB>WHPQ3]J4Oo8U2l3
+R2
+=1-000ae431a4f1-67d14660-77157-8b56
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+vasync_fifo
+Z6 !s110 1741768281
+!i10b 1
+!s100 7^S>8fL5]2kf5Uk<^G>a?2
+IQ6]YBlSl0QDSgfDQAY`BX0
+Z7 d/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo
+w1741767522
+8async_fifo.v
+Fasync_fifo.v
+!i122 266
+L0 1 99
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z10 !s108 1741768280.000000
+Z11 !s107 BCD_to_Gray.v|Gray_to_BCD.v|memory_32x8.v|async_fifo.v|/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v|
+!i113 0
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vBCD_to_Gray
+R6
+!i10b 1
+!s100 SfB3>0_l?14l5GGUg[KTk0
+I4jJ5TSA^INkYSFlb7X[5g0
+R7
+w1741767451
+8BCD_to_Gray.v
+FBCD_to_Gray.v
+!i122 266
+L0 1 8
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+n@b@c@d_to_@gray
+vGray_to_BCD
+R6
+!i10b 1
+!s100 Vlhb823AjY7<`5GUlVCS=3
+IZ[^U4KFXUT4Eeo]IP[ZTG3
+R7
+w1741762527
+8Gray_to_BCD.v
+FGray_to_BCD.v
+!i122 266
+L0 1 17
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+n@gray_to_@b@c@d
+vMemory
+R6
+!i10b 1
+!s100 `VDY0c@COXmB6Zl;f<^MI0
+IF767SRn0lR_K_4o6W<G;[1
+R7
+w1741766793
+8memory_32x8.v
+Fmemory_32x8.v
+!i122 266
+L0 1 32
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+n@memory
+vmemory
+!s110 1741754896
+!i10b 1
+!s100 ]g>QgJN9fA8faJ@52fnNB0
+Iz<VOChz5<NAa^12W8HKgS0
+R7
+w1741754894
+8/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/memory_32x8.v
+F/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/memory_32x8.v
+!i122 5
+L0 1 38
+R8
+R9
+r1
+!s85 0
+31
+!s108 1741754896.000000
+!s107 /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/memory_32x8.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/memory_32x8.v|
+!i113 0
+R13
+R4
+vNormal_TB
+R6
+!i10b 1
+!s100 8HgXzWXDn6l7mj2AzhJ6V0
+ISiK62_@gKh71jI>6^DGTm2
+R7
+w1741768271
+8/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v
+F/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v
+!i122 266
+L0 6 46
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+n@normal_@t@b

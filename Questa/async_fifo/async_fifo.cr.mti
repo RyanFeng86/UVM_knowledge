@@ -1,0 +1,43 @@
+/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/BCD_to_Gray.v {2 {vlog -work work -vopt -stats=none /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/BCD_to_Gray.v
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+-- Compiling module BCD_to_Gray
+** Warning: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/BCD_to_Gray.v(6): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	BCD_to_Gray
+
+} {} {}} /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/async_fifo.v {1 {vlog -work work -vopt -stats=none /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/async_fifo.v
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+-- Compiling module async_fifo
+
+Top level modules:
+	async_fifo
+
+} {} {}} /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/memory_32x8.v {1 {vlog -work work -vopt -stats=none /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/memory_32x8.v
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Gray_to_BCD.v {1 {vlog -work work -vopt -stats=none /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Gray_to_BCD.v
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+-- Compiling module Gray_to_BCD
+
+Top level modules:
+	Gray_to_BCD
+
+} {} {}} /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v {2 {vlog -work work -vopt -stats=none /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+-- Compiling module async_fifo
+-- Compiling module Memory
+-- Compiling module Gray_to_BCD
+-- Compiling module BCD_to_Gray
+** Warning: ** while parsing file included at /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v(5)
+** at BCD_to_Gray.v(6): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+-- Compiling module Normal_TB
+
+Top level modules:
+	Normal_TB
+
+} {} {}}
