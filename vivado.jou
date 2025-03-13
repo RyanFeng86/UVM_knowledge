@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Wed Mar 12 11:53:23 2025
+# Process ID: 5928
+# Current directory: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge
+# Command line: vivado
+# Log file: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/vivado.log
+# Journal file: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/vivado.jou
+# Running On: ryanfeng-System-Product-Name, OS: Linux, CPU Frequency: 2606.026 MHz, CPU Physical cores: 24, Host memory: 67114 MB
+#-----------------------------------------------------------
+start_gui
+create_project async_fifo /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo -part xc7vx485tffg1157-1
+add_files -norecurse {/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Gray_to_BCD.v /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/memory_32x8.v /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/BCD_to_Gray.v /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/async_fifo.v}
+set_property compxlib.questa_compiled_library_dir /usr/questasim/questasim [current_project]
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v]
+move_files [get_files  /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v] -no_script -reset -force -quiet
+remove_files  /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v
+export_ip_user_files -of_objects  [get_files /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/async_fifo.v] -no_script -reset -force -quiet
+remove_files  /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/async_fifo.v
+export_ip_user_files -of_objects  [get_files /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/BCD_to_Gray.v] -no_script -reset -force -quiet
+remove_files  /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/BCD_to_Gray.v
+export_ip_user_files -of_objects  [get_files /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Gray_to_BCD.v] -no_script -reset -force -quiet
+remove_files  /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Gray_to_BCD.v
+export_ip_user_files -of_objects  [get_files /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/memory_32x8.v] -no_script -reset -force -quiet
+remove_files  /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/memory_32x8.v
+import_files -norecurse {/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Gray_to_BCD.v /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/memory_32x8.v /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/BCD_to_Gray.v /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/async_fifo.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sim_1
+synth_design -top async_fifo -part xc7vx485tffg1157-1 -lint 

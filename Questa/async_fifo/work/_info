@@ -15,6 +15,18 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.2_1 2021.05, May 15 2021
 13
 !s112 1.1
@@ -35,32 +47,32 @@ n@_opt
 Z5 OL;O;2021.2_1;73
 R1
 T_opt1
-!s110 1741768288
-VJZdgAB>WHPQ3]J4Oo8U2l3
+!s110 1741841617
+Vjng`f7F;ZK7`KFjYQa01=0
 R2
-=1-000ae431a4f1-67d14660-77157-8b56
+=1-000ae431a4f1-67d264d1-5a378-b684
 R3
 o-quiet -auto_acc_if_foreign -work work +acc
 R4
 n@_opt1
 R5
 vasync_fifo
-Z6 !s110 1741768281
+Z6 !s110 1741841606
 !i10b 1
-!s100 7^S>8fL5]2kf5Uk<^G>a?2
-IQ6]YBlSl0QDSgfDQAY`BX0
+!s100 Tm7KL39S2o7JDD^nTePc[1
+Ia[>o:d9mCeQ`@JIJ^67jQ0
 Z7 d/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo
-w1741767522
+w1741837963
 8async_fifo.v
 Fasync_fifo.v
-!i122 266
-L0 1 99
+!i122 371
+L0 1 104
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2021.2_1;73
 r1
 !s85 0
 31
-Z10 !s108 1741768280.000000
+Z10 !s108 1741841606.000000
 Z11 !s107 BCD_to_Gray.v|Gray_to_BCD.v|memory_32x8.v|async_fifo.v|/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v|
 Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v|
 !i113 0
@@ -75,7 +87,7 @@ R7
 w1741767451
 8BCD_to_Gray.v
 FBCD_to_Gray.v
-!i122 266
+!i122 371
 L0 1 8
 R8
 R9
@@ -98,7 +110,7 @@ R7
 w1741762527
 8Gray_to_BCD.v
 FGray_to_BCD.v
-!i122 266
+!i122 371
 L0 1 17
 R8
 R9
@@ -112,29 +124,6 @@ R12
 R13
 R4
 n@gray_to_@b@c@d
-vMemory
-R6
-!i10b 1
-!s100 `VDY0c@COXmB6Zl;f<^MI0
-IF767SRn0lR_K_4o6W<G;[1
-R7
-w1741766793
-8memory_32x8.v
-Fmemory_32x8.v
-!i122 266
-L0 1 32
-R8
-R9
-r1
-!s85 0
-31
-R10
-R11
-R12
-!i113 0
-R13
-R4
-n@memory
 vmemory
 !s110 1741754896
 !i10b 1
@@ -157,17 +146,40 @@ r1
 !i113 0
 R13
 R4
+vMemory
+R6
+!i10b 1
+!s100 FI6nGmLiiFVRmVdK;SP043
+I2N[d0T?4b^bZ[OmAO07UE3
+R7
+w1741837727
+8memory_32x8.v
+Fmemory_32x8.v
+!i122 371
+L0 1 32
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+n@memory
 vNormal_TB
 R6
 !i10b 1
-!s100 8HgXzWXDn6l7mj2AzhJ6V0
-ISiK62_@gKh71jI>6^DGTm2
+!s100 V:ZIdfZjMO`PNB^<3g^]n3
+INVN?9Nk;j4oBF`XaJSce]2
 R7
-w1741768271
+w1741841603
 8/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v
 F/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v
-!i122 266
-L0 6 46
+!i122 371
+L0 6 51
 R8
 R9
 r1

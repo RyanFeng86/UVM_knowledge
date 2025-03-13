@@ -1,0 +1,1654 @@
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project async_fifo
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.Normal_TB -voptargs=+acc
+# vsim work.Normal_TB -voptargs="+acc" 
+# Start time: 20:53:42 on Mar 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ready'.
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo File: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v Line: 12
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'valid'.
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo File: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# Error loading design
+# End time: 20:53:44 on Mar 12,2025, Elapsed time: 0:00:02
+# Errors: 2, Warnings: 8
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.Normal_TB
+# vsim -voptargs="+acc" work.Normal_TB 
+# Start time: 20:55:22 on Mar 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ready'.
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo File: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v Line: 12
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'valid'.
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo File: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# Error loading design
+# End time: 20:55:24 on Mar 12,2025, Elapsed time: 0:00:02
+# Errors: 2, Warnings: 4
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.Normal_TB
+# vsim -voptargs="+acc" work.Normal_TB 
+# Start time: 20:56:20 on Mar 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+add wave -position end  sim:/Normal_TB/fifo/DEPTH
+add wave -position end  sim:/Normal_TB/fifo/WIDTH
+add wave -position end  sim:/Normal_TB/fifo/data_in
+add wave -position end  sim:/Normal_TB/fifo/write_en
+add wave -position end  sim:/Normal_TB/fifo/clk_w
+add wave -position end  sim:/Normal_TB/fifo/read_en
+add wave -position end  sim:/Normal_TB/fifo/clk_r
+add wave -position end  sim:/Normal_TB/fifo/rst
+add wave -position end  sim:/Normal_TB/fifo/ready
+add wave -position end  sim:/Normal_TB/fifo/valid
+add wave -position end  sim:/Normal_TB/fifo/data_out
+add wave -position end  sim:/Normal_TB/fifo/write_addr_gray
+add wave -position end  sim:/Normal_TB/fifo/read_addr_gray
+add wave -position end  sim:/Normal_TB/fifo/write_addr_tmp_1
+add wave -position end  sim:/Normal_TB/fifo/read_addr_tmp_1
+add wave -position end  sim:/Normal_TB/fifo/write_addr_tmp_2
+add wave -position end  sim:/Normal_TB/fifo/read_addr_tmp_2
+add wave -position end  sim:/Normal_TB/fifo/write_addr_BCD
+add wave -position end  sim:/Normal_TB/fifo/read_addr_BCD
+add wave -position end  sim:/Normal_TB/fifo/full
+add wave -position end  sim:/Normal_TB/fifo/empty
+add wave -position end  sim:/Normal_TB/fifo/counter_w
+add wave -position end  sim:/Normal_TB/fifo/counter_r
+run
+# read out data:x at 700
+# read out data:ff at 1100
+# read out data:ff at 1500
+# read out data:ff at 1900
+# read out data:ff at 2300
+# read out data:ff at 2700
+# read out data:ff at 3100
+# read out data:ff at 3500
+# read out data:ff at 3900
+# read out data:ff at 4300
+# read out data:ff at 4700
+# read out data:ff at 5100
+# read out data:ff at 5500
+# read out data:ff at 5900
+# read out data:ff at 6300
+# read out data:ff at 6700
+# read out data:ff at 7100
+# read out data:ff at 7500
+# read out data:ff at 7900
+run
+# read out data:ff at 8300
+# read out data:ff at 8700
+# read out data:ff at 9100
+# read out data:ff at 9500
+# read out data:ff at 9900
+# read out data:ff at 10300
+# read out data:ff at 10700
+# read out data:ff at 11100
+# read out data:ff at 11500
+# read out data:ff at 11900
+# read out data:ff at 12300
+# read out data:ff at 12700
+# read out data:ff at 13100
+# read out data:ff at 13500
+# read out data:ff at 13900
+# read out data:ff at 14300
+# read out data:ff at 14700
+# read out data:ff at 15100
+# read out data:ff at 15500
+# read out data:ff at 15900
+run
+# read out data:ff at 16300
+# read out data:ff at 16700
+# read out data:ff at 17100
+# read out data:ff at 17500
+# read out data:ff at 17900
+# read out data:ff at 18300
+# read out data:ff at 18700
+# read out data:ff at 19100
+# read out data:ff at 19500
+# read out data:ff at 19900
+# read out data:ff at 20300
+# ** Note: $finish    : /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v(46)
+#    Time: 2050 ns  Iteration: 0  Instance: /Normal_TB
+# 1
+# Break in Module Normal_TB at /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v line 46
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+run -continue
+# read out data:x at 700
+# read out data:ff at 1100
+# read out data:ff at 1500
+# read out data:ff at 1900
+# read out data:ff at 2300
+# read out data:ff at 2700
+# read out data:ff at 3100
+# read out data:ff at 3500
+# read out data:ff at 3900
+# read out data:ff at 4300
+# read out data:ff at 4700
+# read out data:ff at 5100
+# read out data:ff at 5500
+# read out data:ff at 5900
+# read out data:ff at 6300
+# read out data:ff at 6700
+# read out data:ff at 7100
+# read out data:ff at 7500
+# read out data:ff at 7900
+# read out data:ff at 8300
+# read out data:ff at 8700
+# read out data:0 at 9100
+# read out data:0 at 9500
+# read out data:0 at 9900
+# read out data:0 at 10300
+# read out data:0 at 10700
+# read out data:0 at 11100
+# read out data:0 at 11500
+# read out data:0 at 11900
+# read out data:0 at 12300
+# read out data:0 at 12700
+# read out data:0 at 13100
+# read out data:0 at 13500
+# read out data:0 at 13900
+# read out data:0 at 14300
+# read out data:0 at 14700
+# read out data:0 at 15100
+# read out data:0 at 15500
+# read out data:0 at 15900
+# read out data:0 at 16300
+# read out data:0 at 16700
+# read out data:0 at 17100
+# read out data:0 at 17500
+# read out data:0 at 17900
+# read out data:0 at 18300
+# read out data:0 at 18700
+# read out data:0 at 19100
+# read out data:0 at 19500
+# read out data:0 at 19900
+# read out data:0 at 20300
+# ** Note: $finish    : /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v(46)
+#    Time: 2050 ns  Iteration: 0  Instance: /Normal_TB
+# 1
+# Break in Module Normal_TB at /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v line 46
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+step
+step -over
+step -over
+step -over
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 10 ns.
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -out
+# Next activity is in 10 ns.
+step -current
+# ** UI-Msg: (vsim-12081) The specified scope, sim:/Normal_TB/fifo, is not a process or thread.
+# 
+run
+# Break in Module Normal_TB at /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v line 26
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+run
+# read out data:x at 700
+# read out data:ff at 1100
+# read out data:ff at 1500
+# read out data:ff at 1900
+# read out data:ff at 2300
+# read out data:ff at 2700
+# read out data:ff at 3100
+# read out data:ff at 3500
+# read out data:ff at 3900
+# read out data:ff at 4300
+# read out data:ff at 4700
+# read out data:ff at 5100
+# read out data:ff at 5500
+# read out data:ff at 5900
+# read out data:ff at 6300
+# read out data:ff at 6700
+# read out data:ff at 7100
+# read out data:ff at 7500
+# read out data:ff at 7900
+# read out data:ff at 8300
+run
+# read out data:ff at 8700
+# read out data:0 at 9100
+# read out data:0 at 9500
+# read out data:0 at 9900
+# read out data:0 at 10300
+# read out data:0 at 10700
+# read out data:0 at 11100
+# read out data:0 at 11500
+# read out data:0 at 11900
+# read out data:0 at 12300
+# read out data:0 at 12700
+# read out data:0 at 13100
+# read out data:0 at 13500
+# read out data:0 at 13900
+# read out data:0 at 14300
+# read out data:0 at 14700
+# read out data:0 at 15100
+# read out data:0 at 15500
+# read out data:0 at 15900
+# read out data:0 at 16300
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+run
+# read out data:x at 700
+# read out data:ff at 1100
+# read out data:0 at 1500
+# read out data:ff at 1900
+# read out data:0 at 2300
+# read out data:ff at 2700
+# read out data:0 at 3100
+# read out data:ff at 3500
+# read out data:0 at 3900
+# read out data:ff at 4300
+# read out data:0 at 4700
+# read out data:ff at 5100
+# read out data:0 at 5500
+# read out data:ff at 5900
+# read out data:0 at 6300
+# read out data:ff at 6700
+# read out data:0 at 7100
+# read out data:ff at 7500
+# read out data:0 at 7900
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+run
+# read out data:x at 700
+# read out data:ff at 1100
+# read out data:ff at 1500
+# read out data:0 at 1900
+# read out data:ff at 2300
+# read out data:0 at 2700
+# read out data:ff at 3100
+# read out data:0 at 3500
+# read out data:ff at 3900
+# read out data:0 at 4300
+# read out data:ff at 4700
+# read out data:0 at 5100
+# read out data:ff at 5500
+# read out data:0 at 5900
+# read out data:ff at 6300
+# read out data:0 at 6700
+# read out data:ff at 7100
+# read out data:0 at 7500
+# read out data:ff at 7900
+run
+# read out data:0 at 8300
+# read out data:ff at 8700
+# read out data:0 at 9100
+# read out data:ff at 9500
+# read out data:0 at 9900
+# read out data:ff at 10300
+# read out data:0 at 10700
+# read out data:ff at 11100
+# read out data:0 at 11500
+# read out data:ff at 11900
+# read out data:0 at 12300
+# read out data:ff at 12700
+# read out data:0 at 13100
+# read out data:ff at 13500
+# read out data:0 at 13900
+# read out data:ff at 14300
+# read out data:0 at 14700
+# read out data:ff at 15100
+# read out data:0 at 15500
+# read out data:ff at 15900
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v failed with 6 errors.
+# 5 compiles, 1 failed with 6 errors.
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v failed with 6 errors.
+# 5 compiles, 1 failed with 6 errors.
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+run
+# Break key hit
+# Break in Module Normal_TB at /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v line 44
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+run
+# read out data:ff at 1300
+# read out data:ff at 1500
+# read out data:ff at 1700
+# read out data:0 at 1900
+# read out data:0 at 2100
+# read out data:ff at 2300
+# read out data:ff at 2500
+# read out data:0 at 2700
+# read out data:0 at 2900
+# read out data:ff at 3100
+# read out data:ff at 3300
+# read out data:0 at 3500
+# read out data:0 at 3700
+# read out data:ff at 3900
+# read out data:ff at 4100
+# read out data:0 at 4300
+# read out data:0 at 4500
+# read out data:ff at 4700
+# read out data:ff at 4900
+# read out data:0 at 5100
+# read out data:0 at 5300
+# read out data:ff at 5500
+# read out data:ff at 5700
+# read out data:0 at 5900
+# read out data:0 at 6100
+# read out data:ff at 6300
+# read out data:ff at 6500
+# read out data:0 at 6700
+# read out data:0 at 6900
+# read out data:ff at 7100
+# read out data:ff at 7300
+# read out data:0 at 7500
+# read out data:0 at 7700
+# read out data:ff at 7900
+run
+# read out data:ff at 8100
+# read out data:0 at 8300
+# read out data:0 at 8500
+# read out data:ff at 8700
+# read out data:ff at 8900
+# read out data:0 at 9100
+# read out data:0 at 9300
+# read out data:ff at 9500
+# read out data:ff at 9700
+# read out data:0 at 9900
+# read out data:0 at 10100
+# read out data:ff at 10300
+# read out data:ff at 10500
+# read out data:0 at 10700
+# read out data:0 at 10900
+# read out data:ff at 11100
+# ** Note: $finish    : /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v(53)
+#    Time: 1110 ns  Iteration: 0  Instance: /Normal_TB
+# 1
+# Break in Module Normal_TB at /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v line 53
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+run
+# read out data:ff at 1300
+# read out data:ff at 1500
+# read out data:ff at 1700
+# read out data:0 at 1900
+# read out data:0 at 2100
+# read out data:ff at 2300
+# read out data:ff at 2500
+# read out data:0 at 2700
+# read out data:0 at 2900
+# read out data:ff at 3100
+# read out data:ff at 3300
+# read out data:0 at 3500
+# read out data:0 at 3700
+# read out data:ff at 3900
+# read out data:ff at 4100
+# read out data:0 at 4300
+# read out data:0 at 4500
+# read out data:ff at 4700
+# read out data:ff at 4900
+# read out data:0 at 5100
+# read out data:0 at 5300
+# read out data:ff at 5500
+# read out data:ff at 5700
+# read out data:0 at 5900
+# read out data:0 at 6100
+# read out data:ff at 6300
+# read out data:ff at 6500
+# read out data:0 at 6700
+# read out data:0 at 6900
+# read out data:ff at 7100
+# read out data:ff at 7300
+# read out data:0 at 7500
+# read out data:0 at 7700
+# read out data:ff at 7900
+run
+# read out data:ff at 8100
+# read out data:0 at 8300
+# read out data:0 at 8500
+# read out data:ff at 8700
+# read out data:ff at 8900
+# read out data:0 at 9100
+# read out data:0 at 9300
+# read out data:ff at 9500
+# read out data:ff at 9700
+# read out data:0 at 9900
+# read out data:0 at 10100
+# read out data:ff at 10300
+# read out data:ff at 10500
+# read out data:0 at 10700
+# read out data:0 at 10900
+# read out data:ff at 11100
+# read out data:ff at 11300
+# read out data:0 at 11500
+# read out data:0 at 11700
+# read out data:ff at 11900
+# read out data:ff at 12100
+# read out data:0 at 12300
+# read out data:0 at 12500
+# read out data:ff at 12700
+# read out data:ff at 12900
+# read out data:0 at 13100
+# read out data:0 at 13300
+# read out data:ff at 13500
+# read out data:ff at 13700
+# read out data:0 at 13900
+# read out data:0 at 14100
+# read out data:ff at 14300
+# read out data:ff at 14500
+# read out data:0 at 14700
+# read out data:0 at 14900
+# read out data:ff at 15100
+# read out data:ff at 15300
+# read out data:0 at 15500
+# read out data:0 at 15700
+# read out data:ff at 15900
+run
+# read out data:ff at 16100
+# read out data:0 at 16300
+# read out data:0 at 16500
+# read out data:ff at 16700
+# read out data:ff at 16900
+# read out data:0 at 17100
+# read out data:0 at 17300
+# read out data:ff at 17500
+# read out data:ff at 17700
+# read out data:0 at 17900
+# read out data:0 at 18100
+# read out data:ff at 18300
+# read out data:ff at 18500
+# read out data:0 at 18700
+# read out data:0 at 18900
+# read out data:ff at 19100
+# read out data:ff at 19300
+# read out data:0 at 19500
+# read out data:0 at 19700
+# read out data:ff at 19900
+# read out data:ff at 20100
+# read out data:0 at 20300
+# read out data:0 at 20500
+# read out data:ff at 20700
+# read out data:ff at 20900
+# read out data:0 at 21100
+# read out data:0 at 21300
+# read out data:ff at 21500
+# read out data:ff at 21700
+# read out data:0 at 21900
+# read out data:0 at 22100
+# read out data:ff at 22300
+# read out data:ff at 22500
+# read out data:0 at 22700
+# read out data:0 at 22900
+# read out data:ff at 23100
+# read out data:ff at 23300
+# read out data:0 at 23500
+# read out data:0 at 23700
+# read out data:ff at 23900
+run
+# read out data:ff at 24100
+# read out data:ff at 24300
+# read out data:ff at 24500
+# read out data:ff at 24700
+# read out data:ff at 24900
+# read out data:ff at 25100
+# read out data:ff at 25300
+# read out data:ff at 25500
+# read out data:ff at 25700
+# read out data:ff at 25900
+# read out data:ff at 26100
+# read out data:ff at 26300
+# read out data:ff at 26500
+# read out data:ff at 26700
+# read out data:ff at 26900
+# read out data:ff at 27100
+# read out data:ff at 27300
+# read out data:ff at 27500
+# read out data:ff at 27700
+# read out data:ff at 27900
+# read out data:ff at 28100
+# read out data:ff at 28300
+# read out data:ff at 28500
+# read out data:ff at 28700
+# read out data:ff at 28900
+# read out data:ff at 29100
+# read out data:ff at 29300
+# read out data:ff at 29500
+# read out data:ff at 29700
+# read out data:ff at 29900
+# read out data:ff at 30100
+# read out data:ff at 30300
+# read out data:ff at 30500
+# read out data:ff at 30700
+# read out data:ff at 30900
+# read out data:ff at 31100
+# ** Note: $finish    : /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v(53)
+#    Time: 3110 ns  Iteration: 0  Instance: /Normal_TB
+# 1
+# Break in Module Normal_TB at /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v line 53
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+run
+# read out data:ff at 1300
+# read out data:ff at 1500
+# read out data:ff at 1700
+# read out data:0 at 1900
+# read out data:0 at 2100
+# read out data:ff at 2300
+# read out data:ff at 2500
+# read out data:0 at 2700
+# read out data:0 at 2900
+# read out data:ff at 3100
+# read out data:ff at 3300
+# read out data:0 at 3500
+# read out data:0 at 3700
+# read out data:ff at 3900
+# read out data:ff at 4100
+# read out data:0 at 4300
+# read out data:0 at 4500
+# read out data:ff at 4700
+# read out data:ff at 4900
+# read out data:0 at 5100
+# read out data:0 at 5300
+# read out data:ff at 5500
+# read out data:ff at 5700
+# read out data:0 at 5900
+# read out data:0 at 6100
+# read out data:ff at 6300
+# read out data:ff at 6500
+# read out data:0 at 6700
+# read out data:0 at 6900
+# read out data:ff at 7100
+# read out data:ff at 7300
+# read out data:0 at 7500
+# read out data:0 at 7700
+# read out data:ff at 7900
+run
+# read out data:ff at 8100
+# read out data:0 at 8300
+# read out data:0 at 8500
+# read out data:ff at 8700
+# read out data:ff at 8900
+# read out data:0 at 9100
+# read out data:0 at 9300
+# read out data:ff at 9500
+# read out data:ff at 9700
+# read out data:0 at 9900
+# read out data:0 at 10100
+# read out data:ff at 10300
+# read out data:ff at 10500
+# read out data:0 at 10700
+# read out data:0 at 10900
+# read out data:ff at 11100
+# read out data:ff at 11300
+# read out data:0 at 11500
+# read out data:0 at 11700
+# read out data:ff at 11900
+# read out data:ff at 12100
+# read out data:0 at 12300
+# read out data:0 at 12500
+# read out data:ff at 12700
+# read out data:ff at 12900
+# read out data:0 at 13100
+# read out data:0 at 13300
+# read out data:ff at 13500
+# read out data:ff at 13700
+# read out data:0 at 13900
+# read out data:0 at 14100
+# read out data:ff at 14300
+# read out data:ff at 14500
+# read out data:0 at 14700
+# read out data:0 at 14900
+# read out data:ff at 15100
+# read out data:ff at 15300
+# read out data:0 at 15500
+# read out data:0 at 15700
+# read out data:ff at 15900
+run
+# read out data:ff at 16100
+# read out data:0 at 16300
+# read out data:0 at 16500
+# read out data:ff at 16700
+# read out data:ff at 16900
+# read out data:0 at 17100
+# read out data:0 at 17300
+# read out data:ff at 17500
+# read out data:ff at 17700
+# read out data:0 at 17900
+# read out data:0 at 18100
+# read out data:ff at 18300
+# read out data:ff at 18500
+# read out data:0 at 18700
+# read out data:0 at 18900
+# read out data:ff at 19100
+# read out data:ff at 19300
+# read out data:0 at 19500
+# read out data:0 at 19700
+# read out data:ff at 19900
+# read out data:ff at 20100
+# read out data:0 at 20300
+# read out data:0 at 20500
+# read out data:ff at 20700
+# read out data:ff at 20900
+# read out data:0 at 21100
+# read out data:0 at 21300
+# read out data:ff at 21500
+# read out data:ff at 21700
+# read out data:0 at 21900
+# read out data:0 at 22100
+# read out data:ff at 22300
+# read out data:ff at 22500
+# read out data:0 at 22700
+# read out data:0 at 22900
+# read out data:ff at 23100
+# read out data:ff at 23300
+# read out data:0 at 23500
+# read out data:0 at 23700
+# read out data:ff at 23900
+run
+# read out data:ff at 24100
+# read out data:ff at 24300
+# read out data:ff at 24500
+# read out data:ff at 24700
+# read out data:ff at 24900
+# read out data:ff at 25100
+# read out data:ff at 25300
+# read out data:ff at 25500
+# read out data:ff at 25700
+# read out data:ff at 25900
+# read out data:ff at 26100
+# read out data:ff at 26300
+# read out data:ff at 26500
+# read out data:ff at 26700
+# read out data:ff at 26900
+# read out data:ff at 27100
+# read out data:ff at 27300
+# read out data:ff at 27500
+# read out data:ff at 27700
+# read out data:ff at 27900
+# read out data:ff at 28100
+# read out data:ff at 28300
+# read out data:ff at 28500
+# read out data:ff at 28700
+# read out data:ff at 28900
+# read out data:ff at 29100
+# read out data:ff at 29300
+# read out data:ff at 29500
+# read out data:ff at 29700
+# read out data:ff at 29900
+# read out data:ff at 30100
+# read out data:ff at 30300
+# read out data:ff at 30500
+# read out data:ff at 30700
+# read out data:ff at 30900
+# read out data:ff at 31100
+# ** Note: $finish    : /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v(53)
+#    Time: 3110 ns  Iteration: 0  Instance: /Normal_TB
+# 1
+# Break in Module Normal_TB at /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v line 53
+add wave -position end  sim:/Normal_TB/i
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+run
+# read out data:ff at 1300
+# read out data:ff at 1500
+# read out data:ff at 1700
+# read out data:0 at 1900
+# read out data:0 at 2100
+# read out data:ff at 2300
+# read out data:ff at 2500
+# read out data:0 at 2700
+# read out data:0 at 2900
+# read out data:ff at 3100
+# read out data:ff at 3300
+# read out data:0 at 3500
+# read out data:0 at 3700
+# read out data:ff at 3900
+# read out data:ff at 4100
+# read out data:0 at 4300
+# read out data:0 at 4500
+# read out data:ff at 4700
+# read out data:ff at 4900
+# read out data:0 at 5100
+# read out data:0 at 5300
+# read out data:ff at 5500
+# read out data:ff at 5700
+# read out data:0 at 5900
+# read out data:0 at 6100
+# read out data:ff at 6300
+# read out data:ff at 6500
+# read out data:0 at 6700
+# read out data:0 at 6900
+# read out data:ff at 7100
+# read out data:ff at 7300
+# read out data:0 at 7500
+# read out data:0 at 7700
+# read out data:ff at 7900
+run
+# read out data:ff at 8100
+# read out data:0 at 8300
+# read out data:0 at 8500
+# read out data:ff at 8700
+# read out data:ff at 8900
+# read out data:0 at 9100
+# read out data:0 at 9300
+# read out data:ff at 9500
+# read out data:ff at 9700
+# read out data:0 at 9900
+# read out data:0 at 10100
+# read out data:ff at 10300
+# read out data:ff at 10500
+# read out data:0 at 10700
+# read out data:0 at 10900
+# read out data:ff at 11100
+# read out data:ff at 11300
+# read out data:0 at 11500
+# read out data:0 at 11700
+# read out data:ff at 11900
+# read out data:ff at 12100
+# read out data:0 at 12300
+# read out data:0 at 12500
+# read out data:ff at 12700
+# read out data:ff at 12900
+# read out data:0 at 13100
+# read out data:0 at 13300
+# read out data:ff at 13500
+# read out data:ff at 13700
+# read out data:0 at 13900
+# read out data:0 at 14100
+# read out data:ff at 14300
+# read out data:ff at 14500
+# read out data:0 at 14700
+# read out data:0 at 14900
+# read out data:ff at 15100
+# read out data:ff at 15300
+# read out data:0 at 15500
+# read out data:0 at 15700
+# read out data:ff at 15900
+run
+# read out data:ff at 16100
+# read out data:0 at 16300
+# read out data:0 at 16500
+# read out data:ff at 16700
+# read out data:ff at 16900
+# read out data:0 at 17100
+# read out data:0 at 17300
+# read out data:ff at 17500
+# read out data:ff at 17700
+# read out data:0 at 17900
+# read out data:0 at 18100
+# read out data:ff at 18300
+# read out data:ff at 18500
+# read out data:0 at 18700
+# read out data:0 at 18900
+# read out data:ff at 19100
+# read out data:ff at 19300
+# read out data:0 at 19500
+# read out data:0 at 19700
+# read out data:ff at 19900
+# read out data:ff at 20100
+# read out data:0 at 20300
+# read out data:0 at 20500
+# read out data:ff at 20700
+# read out data:ff at 20900
+# read out data:0 at 21100
+# read out data:0 at 21300
+# read out data:ff at 21500
+# read out data:ff at 21700
+# read out data:0 at 21900
+# read out data:0 at 22100
+# read out data:ff at 22300
+# read out data:ff at 22500
+# read out data:0 at 22700
+# read out data:0 at 22900
+# read out data:ff at 23100
+# read out data:ff at 23300
+# read out data:0 at 23500
+# read out data:0 at 23700
+# read out data:ff at 23900
+run
+# read out data:ff at 24100
+# read out data:ff at 24300
+# read out data:ff at 24500
+# read out data:ff at 24700
+# read out data:ff at 24900
+# read out data:ff at 25100
+# read out data:ff at 25300
+# read out data:ff at 25500
+# read out data:ff at 25700
+# read out data:ff at 25900
+# read out data:ff at 26100
+# read out data:ff at 26300
+# read out data:ff at 26500
+# read out data:ff at 26700
+# read out data:ff at 26900
+# read out data:ff at 27100
+# read out data:ff at 27300
+# read out data:ff at 27500
+# read out data:ff at 27700
+# read out data:ff at 27900
+# read out data:ff at 28100
+# read out data:ff at 28300
+# read out data:ff at 28500
+# read out data:ff at 28700
+# read out data:ff at 28900
+# read out data:ff at 29100
+# read out data:ff at 29300
+# read out data:ff at 29500
+# read out data:ff at 29700
+# read out data:ff at 29900
+# read out data:ff at 30100
+# read out data:ff at 30300
+# read out data:ff at 30500
+# read out data:ff at 30700
+# read out data:ff at 30900
+# read out data:ff at 31100
+# ** Note: $finish    : /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v(53)
+#    Time: 3110 ns  Iteration: 0  Instance: /Normal_TB
+# 1
+# Break in Module Normal_TB at /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/Normal_TB.v line 53
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+run
+# read out data:x at 800
+# read out data:ff at 1200
+# read out data:ff at 1600
+# read out data:0 at 2000
+# read out data:ff at 2400
+# read out data:0 at 2800
+# read out data:ff at 3200
+# read out data:0 at 3600
+# read out data:ff at 4000
+# read out data:0 at 4400
+# read out data:ff at 4800
+# read out data:0 at 5200
+# read out data:ff at 5600
+# read out data:0 at 6000
+# read out data:ff at 6400
+# read out data:0 at 6800
+# read out data:ff at 7200
+# read out data:0 at 7600
+# read out data:ff at 8000
+run
+# read out data:0 at 8400
+# read out data:ff at 8800
+# read out data:0 at 9200
+# read out data:ff at 9600
+# read out data:0 at 10000
+# read out data:ff at 10400
+# read out data:0 at 10800
+# read out data:ff at 11200
+# read out data:0 at 11600
+# read out data:ff at 12000
+# read out data:0 at 12400
+# read out data:ff at 12800
+# read out data:0 at 13200
+# read out data:ff at 13600
+# read out data:0 at 14000
+# read out data:ff at 14400
+# read out data:0 at 14800
+# read out data:ff at 15200
+# read out data:0 at 15600
+# read out data:ff at 16000
+run
+# read out data:0 at 16400
+# read out data:ff at 16800
+# read out data:0 at 17200
+# read out data:ff at 17600
+# read out data:0 at 18000
+# read out data:ff at 18400
+# read out data:0 at 18800
+# read out data:ff at 19200
+# read out data:0 at 19600
+# read out data:ff at 20000
+# read out data:0 at 20400
+# read out data:ff at 20800
+# read out data:0 at 21200
+# read out data:ff at 21600
+# read out data:0 at 22000
+# read out data:ff at 22400
+# read out data:0 at 22800
+# read out data:ff at 23200
+# read out data:0 at 23600
+# read out data:ff at 24000
+run
+# read out data:ff at 24400
+# read out data:ff at 24800
+# read out data:ff at 25200
+# read out data:ff at 25600
+# read out data:ff at 26000
+# read out data:ff at 26400
+# read out data:ff at 26800
+# read out data:ff at 27200
+# read out data:ff at 27600
+# read out data:ff at 28000
+# read out data:ff at 28400
+# read out data:ff at 28800
+# read out data:ff at 29200
+# read out data:ff at 29600
+# read out data:ff at 30000
+# read out data:ff at 30400
+# read out data:ff at 30800
+# read out data:ff at 31200
+# read out data:ff at 31600
+# read out data:ff at 32000
+run
+# read out data:ff at 32400
+# read out data:0 at 32800
+# read out data:0 at 33200
+# read out data:0 at 33600
+# read out data:0 at 34000
+# read out data:0 at 34400
+# read out data:0 at 34800
+# read out data:0 at 35200
+# read out data:0 at 35600
+# read out data:0 at 36000
+# read out data:0 at 36400
+# read out data:0 at 36800
+# read out data:0 at 37200
+# read out data:0 at 37600
+# read out data:0 at 38000
+# read out data:0 at 38400
+# read out data:0 at 38800
+# read out data:0 at 39200
+# read out data:0 at 39600
+# read out data:0 at 40000
+run
+# read out data:0 at 40400
+# read out data:0 at 40800
+# read out data:0 at 41200
+# read out data:0 at 41600
+# read out data:0 at 42000
+# read out data:0 at 42400
+# read out data:0 at 42800
+# read out data:0 at 43200
+# read out data:0 at 43600
+# read out data:0 at 44000
+# read out data:0 at 44400
+# read out data:0 at 44800
+# read out data:0 at 45200
+# read out data:0 at 45600
+# read out data:0 at 46000
+# read out data:0 at 46400
+# read out data:0 at 46800
+# read out data:0 at 47200
+# read out data:0 at 47600
+# read out data:0 at 48000
+run
+# read out data:0 at 48400
+# read out data:0 at 48800
+# read out data:0 at 49200
+# read out data:0 at 49600
+# read out data:0 at 50000
+# read out data:0 at 50400
+# read out data:0 at 50800
+# read out data:0 at 51200
+# read out data:0 at 51600
+# read out data:0 at 52000
+# read out data:0 at 52400
+# read out data:0 at 52800
+# read out data:0 at 53200
+# read out data:0 at 53600
+# read out data:0 at 54000
+# read out data:0 at 54400
+# read out data:0 at 54800
+# read out data:0 at 55200
+# read out data:0 at 55600
+# read out data:0 at 56000
+run
+# read out data:0 at 56400
+# read out data:0 at 56800
+# read out data:0 at 57200
+# read out data:0 at 57600
+# read out data:0 at 58000
+# read out data:0 at 58400
+# read out data:0 at 58800
+# read out data:0 at 59200
+# read out data:0 at 59600
+# read out data:0 at 60000
+# read out data:0 at 60400
+# read out data:0 at 60800
+# read out data:0 at 61200
+# read out data:0 at 61600
+# read out data:0 at 62000
+# read out data:0 at 62400
+# read out data:0 at 62800
+# read out data:0 at 63200
+# read out data:0 at 63600
+# read out data:0 at 64000
+run
+# read out data:0 at 64400
+# read out data:0 at 64800
+# read out data:0 at 65200
+# read out data:0 at 65600
+# read out data:0 at 66000
+# read out data:0 at 66400
+# read out data:0 at 66800
+# read out data:0 at 67200
+# read out data:0 at 67600
+# read out data:0 at 68000
+# read out data:0 at 68400
+# read out data:0 at 68800
+# read out data:0 at 69200
+# read out data:0 at 69600
+# read out data:0 at 70000
+# read out data:0 at 70400
+# read out data:0 at 70800
+# read out data:0 at 71200
+# read out data:0 at 71600
+# read out data:0 at 72000
+run
+# read out data:0 at 72400
+# read out data:0 at 72800
+# read out data:0 at 73200
+# read out data:0 at 73600
+# read out data:0 at 74000
+# read out data:0 at 74400
+# read out data:0 at 74800
+# read out data:0 at 75200
+# read out data:0 at 75600
+# read out data:0 at 76000
+# read out data:0 at 76400
+# read out data:0 at 76800
+# read out data:0 at 77200
+# read out data:0 at 77600
+# read out data:0 at 78000
+# read out data:0 at 78400
+# read out data:0 at 78800
+# read out data:0 at 79200
+# read out data:0 at 79600
+# read out data:0 at 80000
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+run
+# read out data:x at 800
+# read out data:ff at 1200
+# read out data:ff at 1600
+# read out data:0 at 2000
+# read out data:ff at 2400
+# read out data:0 at 2800
+# read out data:ff at 3200
+# read out data:0 at 3600
+# read out data:ff at 4000
+# read out data:0 at 4400
+# read out data:ff at 4800
+# read out data:0 at 5200
+# read out data:ff at 5600
+# read out data:0 at 6000
+# read out data:ff at 6400
+# read out data:0 at 6800
+# read out data:ff at 7200
+# read out data:0 at 7600
+# read out data:ff at 8000
+run
+# read out data:0 at 8400
+# read out data:ff at 8800
+# read out data:0 at 9200
+# read out data:ff at 9600
+# read out data:0 at 10000
+# read out data:ff at 10400
+# read out data:0 at 10800
+# read out data:ff at 11200
+# read out data:0 at 11600
+# read out data:ff at 12000
+# read out data:0 at 12400
+# read out data:ff at 12800
+# read out data:0 at 13200
+# read out data:ff at 13600
+# read out data:0 at 14000
+# read out data:ff at 14400
+# read out data:0 at 14800
+# read out data:ff at 15200
+# read out data:0 at 15600
+# read out data:ff at 16000
+run
+# read out data:0 at 16400
+# read out data:ff at 16800
+# read out data:0 at 17200
+# read out data:ff at 17600
+# read out data:0 at 18000
+# read out data:ff at 18400
+# read out data:0 at 18800
+# read out data:ff at 19200
+# read out data:0 at 19600
+# read out data:ff at 20000
+# read out data:0 at 20400
+# read out data:ff at 20800
+# read out data:0 at 21200
+# read out data:ff at 21600
+# read out data:0 at 22000
+# read out data:ff at 22400
+# read out data:0 at 22800
+# read out data:ff at 23200
+# read out data:0 at 23600
+# read out data:ff at 24000
+run
+# read out data:ff at 24400
+# read out data:ff at 24800
+# read out data:ff at 25200
+# read out data:ff at 25600
+# read out data:ff at 26000
+# read out data:ff at 26400
+# read out data:ff at 26800
+# read out data:ff at 27200
+# read out data:ff at 27600
+# read out data:ff at 28000
+# read out data:ff at 28400
+# read out data:ff at 28800
+# read out data:ff at 29200
+# read out data:ff at 29600
+# read out data:ff at 30000
+# read out data:ff at 30400
+# read out data:ff at 30800
+# read out data:ff at 31200
+# read out data:ff at 31600
+# read out data:ff at 32000
+# Break key hit
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of async_fifo.v was successful.
+# Compile of BCD_to_Gray.v was successful with warnings.
+# Compile of Gray_to_BCD.v was successful.
+# Compile of memory_32x8.v was successful.
+# Compile of Normal_TB.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.Normal_TB
+# End time: 21:53:37 on Mar 12,2025, Elapsed time: 0:57:17
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.Normal_TB 
+# Start time: 21:53:37 on Mar 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Normal_TB(fast)
+# Loading work.async_fifo(fast)
+# Loading work.BCD_to_Gray(fast)
+# Loading work.Gray_to_BCD(fast)
+# Loading work.Memory(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_w'. The port definition is at: memory_32x8.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_r'. The port definition is at: memory_32x8.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Normal_TB/fifo/memory File: async_fifo.v Line: 102
+add wave -position end  sim:/Normal_TB/fifo/DEPTH
+add wave -position end  sim:/Normal_TB/fifo/WIDTH
+add wave -position end  sim:/Normal_TB/fifo/data_in
+add wave -position end  sim:/Normal_TB/fifo/write_en
+add wave -position end  sim:/Normal_TB/fifo/clk_w
+add wave -position end  sim:/Normal_TB/fifo/read_en
+add wave -position end  sim:/Normal_TB/fifo/clk_r
+add wave -position end  sim:/Normal_TB/fifo/rst
+add wave -position end  sim:/Normal_TB/fifo/ready
+add wave -position end  sim:/Normal_TB/fifo/valid
+add wave -position end  sim:/Normal_TB/fifo/data_out
+add wave -position end  sim:/Normal_TB/fifo/write_addr_gray
+add wave -position end  sim:/Normal_TB/fifo/read_addr_gray
+add wave -position end  sim:/Normal_TB/fifo/write_addr_tmp_1
+add wave -position end  sim:/Normal_TB/fifo/read_addr_tmp_1
+add wave -position end  sim:/Normal_TB/fifo/write_addr_tmp_2
+add wave -position end  sim:/Normal_TB/fifo/read_addr_tmp_2
+add wave -position end  sim:/Normal_TB/fifo/write_addr_BCD
+add wave -position end  sim:/Normal_TB/fifo/read_addr_BCD
+add wave -position end  sim:/Normal_TB/fifo/full
+add wave -position end  sim:/Normal_TB/fifo/empty
+add wave -position end  sim:/Normal_TB/fifo/counter_w
+add wave -position end  sim:/Normal_TB/fifo/counter_r
+run
+# read out data:x at 800
+# read out data:ff at 1200
+# read out data:ff at 1600
+# read out data:ff at 2000
+# read out data:ff at 2400
+# read out data:ff at 2800
+# read out data:ff at 3200
+# read out data:ff at 3600
+# read out data:ff at 4000
+# read out data:ff at 4400
+# read out data:ff at 4800
+# read out data:ff at 5200
+# read out data:ff at 5600
+# read out data:ff at 6000
+# read out data:ff at 6400
+# read out data:ff at 6800
+# read out data:ff at 7200
+# read out data:ff at 7600
+# read out data:ff at 8000
+run
+# read out data:ff at 8400
+# read out data:ff at 8800
+# read out data:ff at 9200
+# read out data:ff at 9600
+# read out data:ff at 10000
+# read out data:ff at 10400
+# read out data:ff at 10800
+# read out data:ff at 11200
+# read out data:ff at 11600
+# read out data:ff at 12000
+# read out data:ff at 12400
+# read out data:ff at 12800
+# read out data:ff at 13200
+# read out data:ff at 13600
+# read out data:ff at 14000
+# read out data:ff at 14400
+# read out data:ff at 14800
+# read out data:ff at 15200
+# read out data:ff at 15600
+# read out data:ff at 16000
+run
+# read out data:ff at 16400
+# read out data:ff at 16800
+# read out data:ff at 17200
+# read out data:ff at 17600
+# read out data:ff at 18000
+# read out data:ff at 18400
+# read out data:ff at 18800
+# read out data:ff at 19200
+# read out data:ff at 19600
+# read out data:ff at 20000
+# read out data:ff at 20400
+# read out data:ff at 20800
+# read out data:ff at 21200
+# read out data:ff at 21600
+# read out data:ff at 22000
+# read out data:ff at 22400
+# read out data:ff at 22800
+# read out data:ff at 23200
+# read out data:ff at 23600
+# read out data:ff at 24000
+run
+# read out data:ff at 24400
+# read out data:ff at 24800
+# read out data:ff at 25200
+# read out data:ff at 25600
+# read out data:ff at 26000
+# read out data:ff at 26400
+# read out data:ff at 26800
+# read out data:ff at 27200
+# read out data:ff at 27600
+# read out data:ff at 28000
+# read out data:ff at 28400
+# read out data:ff at 28800
+# read out data:ff at 29200
+# read out data:ff at 29600
+# read out data:ff at 30000
+# read out data:ff at 30400
+# read out data:ff at 30800
+# read out data:ff at 31200
+# read out data:ff at 31600
+# read out data:ff at 32000
+run
+# read out data:ff at 32400
+# read out data:0 at 32800
+# read out data:0 at 33200
+# read out data:0 at 33600
+# read out data:0 at 34000
+# read out data:0 at 34400
+# read out data:0 at 34800
+# read out data:0 at 35200
+# read out data:0 at 35600
+# read out data:0 at 36000
+# read out data:0 at 36400
+# read out data:0 at 36800
+# read out data:0 at 37200
+# read out data:0 at 37600
+# read out data:0 at 38000
+# read out data:0 at 38400
+# read out data:0 at 38800
+# read out data:0 at 39200
+# read out data:0 at 39600
+# read out data:0 at 40000
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Questa/async_fifo/wave.do
+# End time: 22:19:13 on Mar 12,2025, Elapsed time: 0:25:36
+# Errors: 0, Warnings: 3

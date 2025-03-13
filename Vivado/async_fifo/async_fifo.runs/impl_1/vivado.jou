@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:52:05 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Wed Mar 12 22:26:47 2025
+# Process ID: 49298
+# Current directory: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.runs/impl_1
+# Command line: vivado -log async_fifo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source async_fifo.tcl -notrace
+# Log file: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.runs/impl_1/async_fifo.vdi
+# Journal file: /media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.runs/impl_1/vivado.jou
+# Running On: ryanfeng-System-Product-Name, OS: Linux, CPU Frequency: 3550.975 MHz, CPU Physical cores: 24, Host memory: 67114 MB
+#-----------------------------------------------------------
+source async_fifo.tcl -notrace

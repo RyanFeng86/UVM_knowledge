@@ -14,7 +14,7 @@ module Memory #(parameter DEPTH=32, //fifo depth
 );
 
 
-	reg [DEPTH-1:0] mem [WIDTH-1:0];
+	reg [WIDTH-1:0] mem [DEPTH-1:0];
 	reg [WIDTH-1:0] data;
 
 	always @(write_en or addr_w) begin

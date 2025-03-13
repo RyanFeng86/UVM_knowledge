@@ -1,0 +1,10 @@
+0.7
+2020.2
+Feb  8 2024
+23:58:30
+/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sim_1/imports/async_fifo/Normal_TB.v,1741816707,verilog,,,,Normal_TB,,,,,,,,
+/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sources_1/imports/async_fifo/BCD_to_Gray.v,1741767451,verilog,,/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sources_1/imports/async_fifo/Gray_to_BCD.v,,BCD_to_Gray,,,,,,,,
+/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sources_1/imports/async_fifo/Gray_to_BCD.v,1741762527,verilog,,/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sources_1/imports/async_fifo/async_fifo.v,,Gray_to_BCD,,,,,,,,
+/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sources_1/imports/async_fifo/async_fifo.v,1741767522,verilog,,/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sources_1/imports/async_fifo/memory_32x8.v,,async_fifo,,,,,,,,
+/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sources_1/imports/async_fifo/memory_32x8.v,1741766793,verilog,,/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sim_1/imports/async_fifo/Normal_TB.v,,Memory,,,,,,,,

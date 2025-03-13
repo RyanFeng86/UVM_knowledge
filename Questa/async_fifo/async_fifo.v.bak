@@ -10,7 +10,10 @@ module async_fifo #(parameter DEPTH = 32,
 
 	input rst,
 
-	output wire [WIDTH-1:0] data_out	
+	output ready,
+	output valid,
+
+	output [WIDTH-1:0] data_out	
 );
 
 function integer addr_width;
@@ -88,11 +91,11 @@ endfunction
 		end		
 	end
 
-	BCD_to_Gray #(addr_width(DEPTH)) from_write(.in(counter_w),.out(write_addr_gray));
-	BCD_to_Gray #(addr_width(DEPTH)) from_read(.in(counter_r),.out(read_addr_gray));
+	BCD_to_Gray #(addr_width(DEPTH)+1) from_write(.in(counter_w),.out(write_addr_gray));
+	BCD_to_Gray #(addr_width(DEPTH)+1) from_read(.in(counter_r),.out(read_addr_gray));
 
-	Gray_to_BCD #(addr_width(DEPTH)) to_read(.in(write_addr_tmp_2),.out(write_addr_BCD));
-	Gray_to_BCD #(addr_width(DEPTH)) to_write(.in(read_addr_tmp_2),.out(read_addr_BCD));
+	Gray_to_BCD #(addr_width(DEPTH)+1) to_read(.in(write_addr_tmp_2),.out(write_addr_BCD));
+	Gray_to_BCD #(addr_width(DEPTH)+1) to_write(.in(read_addr_tmp_2),.out(read_addr_BCD));
 
 	Memory #(DEPTH,WIDTH,addr_width(DEPTH)) memory(.data_in(data_in),.addr_w(counter_w),.write_en(!full && write_en),.addr_r(counter_r),.read_en(!empty && read_en),.data_out(data_out));
 	

@@ -1,0 +1,11 @@
+Vivado Simulator v2023.2.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Normal_TB_behav xil_defaultlib.Normal_TB xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9543] actual bit length 6 differs from formal bit length 5 for port 'addr_w' [/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sources_1/imports/async_fifo/async_fifo.v:97]
+WARNING: [VRFC 10-8864] concatenation with an unsized literal will be treated as 32 bits [/media/ryanfeng/HardDisk/Study/Git_Repos/UVM_knowledge/Vivado/async_fifo/async_fifo.srcs/sources_1/imports/async_fifo/BCD_to_Gray.v:6]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
