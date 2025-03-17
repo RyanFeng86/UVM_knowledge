@@ -1,0 +1,11 @@
+`include "uvm_macros.svh"  
+import uvm_pkg::*; 
+
+class my_write_transaction #(parameter WIDTH=8)extends uvm_sequence_item;
+    bit write_en;
+    logic [WIDTH-1:0] data_in;
+
+    function new(string name="async_write_transaction");
+        super.new(name);
+    endfunction
+endclass
