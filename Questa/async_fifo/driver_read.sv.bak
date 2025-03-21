@@ -1,12 +1,11 @@
 `include "uvm_macros.svh"  
 import uvm_pkg::*;
 `include "transaction_read.sv"
-`include "interface.sv"
 
-class my_read_monitor extends uvm_monitor;
-	`uvm_component_utils(my_read_monitor);
+class my_read_driver extends uvm_driver #(my_read_transaction);
+	`uvm_component_utils(my_read_driver);
 	virtual dut_interface m_vif;
-	function new(string name="my_read_monitor",uvm_component parent);
+	function new(string name="my_read_driver", uvm_component parent);
 		super.new(name,parent);
 	endfunction
 
@@ -15,11 +14,12 @@ class my_read_monitor extends uvm_monitor;
 		uvm_config_db#(virtual dut_interface)::get(this,"","vif",m_vif);
 	endfunction
 	
-
 	virtual task run_phase(uvm_phase phase);
 		forever begin
-			@(posedge m_vif.clk_r);
-			`uvm_info("Read Monitor",$sformatf("data_out = %0h, read_en = %0b, valid = %0b", m_vif.data_out,m_vif.read_en,m_vif.valid),UVM_MEDIUM);
-		end
-	endtask	
+			seq_item_port.get_next_item(req);
+			#20;
+			seq_item_port.item_done();
+		end		
+	endtask
+
 endclass

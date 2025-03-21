@@ -1,6 +1,3 @@
-`ifndef agent_write_SV
-`define agent_write_SV
-
 `include "sequencer_write.sv"
 `include "driver_write.sv"
 `include "monitor_write.sv"
@@ -30,4 +27,3 @@ class my_write_agent extends uvm_agent;
 	endfunction
 
 endclass
-`endif

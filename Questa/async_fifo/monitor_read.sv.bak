@@ -18,7 +18,7 @@ class my_read_monitor extends uvm_monitor;
 
 	virtual task run_phase(uvm_phase phase);
 		forever begin
-			@(posedge m_vif.clk_r);
+			@(posedge m_vif.clk_w);
 			`uvm_info("Read Monitor",$sformatf("data_out = %0h, read_en = %0b, valid = %0b", m_vif.data_out,m_vif.read_en,m_vif.valid),UVM_MEDIUM);
 		end
 	endtask	

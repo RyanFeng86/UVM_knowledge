@@ -1,9 +1,12 @@
+`ifndef interface_SV
+`define interface_SV
+
 interface dut_interface #(parameter DEPTH=32,parameter WIDTH=8);
 logic clk_w,clk_r,write_en,read_en,rst,ready,valid;
 logic [WIDTH-1:0] data_in,data_out;
 
 modport writer(
-	input clk_w,write_en,rst,
+	input clk_w,write_en,rst,data_in,
 	output ready
 );
 
@@ -12,3 +15,4 @@ modport reader(
 	output data_out,valid
 );
 endinterface
+`endif

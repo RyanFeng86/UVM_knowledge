@@ -1,9 +1,5 @@
-`ifndef monitor_write_SV
-`define monitor_write_SV
-
 `include "transaction_write.sv"
 `include "interface.sv"
-
 
 
 class my_write_monitor extends uvm_monitor;
@@ -26,4 +22,3 @@ class my_write_monitor extends uvm_monitor;
 		end
 	endtask	
 endclass
-`endif

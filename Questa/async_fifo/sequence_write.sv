@@ -1,6 +1,7 @@
-`include "uvm_macros.svh"  
+`ifndef sequence_write_SV
+`define sequence_write_SV
+
 `include "transaction_write.sv"
-import uvm_pkg::*; 
 
 class my_write_sequence extends uvm_sequence #(my_write_transaction);
 	`uvm_object_utils(my_write_sequence)
@@ -21,3 +22,4 @@ class my_write_sequence extends uvm_sequence #(my_write_transaction);
 	endtask
 endclass
 
+`endif

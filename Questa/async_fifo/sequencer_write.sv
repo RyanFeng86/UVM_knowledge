@@ -1,6 +1,8 @@
-`include "uvm_macros.svh"  
+`ifndef sequencer_write_SV
+`define sequencer_write_SV
+
 `include "transaction_write.sv"
-import uvm_pkg::*; 
+
 
 typedef uvm_sequencer #(my_write_transaction) my_write_sequencer;
-
+`endif
