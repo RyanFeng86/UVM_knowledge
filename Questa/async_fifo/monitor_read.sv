@@ -1,5 +1,5 @@
-`include "uvm_macros.svh"  
-import uvm_pkg::*;
+`ifndef monitor_read_SV
+`define monitor_read_SV
 `include "transaction_read.sv"
 `include "interface.sv"
 
@@ -23,3 +23,4 @@ class my_read_monitor extends uvm_monitor;
 		end
 	endtask	
 endclass
+`endif

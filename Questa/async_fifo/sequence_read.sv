@@ -1,6 +1,8 @@
 `include "uvm_macros.svh"  
+`ifndef sequence_read_SV
+`define sequence_read_SV
 `include "transaction_read.sv"
-import uvm_pkg::*; 
+
 
 class my_read_sequence extends uvm_sequence #(my_read_transaction);
 	`uvm_object_utils(my_read_sequence)
@@ -20,4 +22,5 @@ class my_read_sequence extends uvm_sequence #(my_read_transaction);
 			starting_pahse.drop_objection(this);
 	endtask
 endclass
+`endif
 

@@ -1,3 +1,6 @@
+`ifndef agent_write_SV
+`define agent_write_SV
+
 `include "sequencer_write.sv"
 `include "driver_write.sv"
 `include "monitor_write.sv"
@@ -18,7 +21,7 @@ class my_write_agent extends uvm_agent;
 			m_w_sequencer=my_write_sequencer::type_id::create("m_w_sequencer",this);
 			m_w_driver=my_write_driver::type_id::create("m_w_driver",this);
 		end
-		m_w_monitor=my_write_monitor::type_id::create("m_w_monitor",this);
+		m_w_monitor=my_write_monitor#(8)::type_id::create("m_w_monitor",this);
 	endfunction
 
 	virtual function void connect_phase(uvm_phase phase);
@@ -27,3 +30,4 @@ class my_write_agent extends uvm_agent;
 	endfunction
 
 endclass
+`endif

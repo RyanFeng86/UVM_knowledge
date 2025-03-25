@@ -1,6 +1,8 @@
-`include "uvm_macros.svh"  
+`ifndef sequencer_read_SV
+`define sequencer_read_SV
+ 
 `include "transaction_read.sv"
-import uvm_pkg::*; 
+
 
 typedef uvm_sequencer #(my_read_transaction) my_read_sequencer;
-
+`endif

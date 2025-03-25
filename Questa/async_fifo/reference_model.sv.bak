@@ -16,6 +16,23 @@ class my_reference_model extends uvm_component;
 		super.new(name,parent);
 		ref_model_ap=new("ref_model_ap",this);
 	endfunction
+	
+	
+
+	
+	
+	
+
+
+
+
+
+
+
 endclass
+
+
+
+
 
 `endif

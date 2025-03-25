@@ -1,6 +1,8 @@
-`include "uvm_macros.svh"  
-import uvm_pkg::*;
+`ifndef driver_read_SV
+`define driver_read_SV
+
 `include "transaction_read.sv"
+`include "interface.sv"
 
 class my_read_driver extends uvm_driver #(my_read_transaction);
 	`uvm_component_utils(my_read_driver);
@@ -23,3 +25,4 @@ class my_read_driver extends uvm_driver #(my_read_transaction);
 	endtask
 
 endclass
+`endif

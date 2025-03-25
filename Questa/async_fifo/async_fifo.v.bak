@@ -10,8 +10,8 @@ module async_fifo #(parameter DEPTH = 32,
 
 	input rst,
 
-	output ready, //ready to write
-	output valid, //valid to read
+	output ready,
+	output valid,
 
 	output [WIDTH-1:0] data_out	
 );
