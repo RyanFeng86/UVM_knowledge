@@ -1,8 +1,10 @@
+`ifndef transaction_write_SV
+`define transaction_write_SV
+
 `include "uvm_macros.svh"  
 import uvm_pkg::*;
 
-`ifndef transaction_write_SV
-`define transaction_write_SV
+
 
 class my_write_transaction #(parameter WIDTH=8)extends uvm_sequence_item;
     bit write_en,ready;

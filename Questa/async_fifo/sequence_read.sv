@@ -1,6 +1,7 @@
-`include "uvm_macros.svh"  
 `ifndef sequence_read_SV
 `define sequence_read_SV
+
+`include "uvm_macros.svh" 
 `include "transaction_read.sv"
 
 
