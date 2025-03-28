@@ -9,7 +9,7 @@ class my_transaction extends uvm_sequence_item;
     rand bit [3:0] da;
     rand reg [7:0] payload[$];
 
-    `uvm_object_utils_begin(my_transaction) //registration
+    `uvm_object_utils_begin(my_transaction) //use macro to registrate my_transaction to UVM factory list
         `uvm_field_int(sa,UVM_ALL_ON)
         `uvm_field_int(da,UVM_ALL_ON)
         `uvm_field_queue_int(payload,UVM_ALL_ON)

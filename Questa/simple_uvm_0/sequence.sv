@@ -4,7 +4,7 @@
 `include "transaction.sv"
 
 class my_sequence extends uvm_sequence#(my_transaction); //it has parameter with my_transaction which was define in transaction.sv
-    `uvm_object_utils(my_sequence)
+    `uvm_object_utils(my_sequence) ////use macro to registrate my_sequence to UVM factory list
 
     function new(string name="my_sequence");
         super.new(name);

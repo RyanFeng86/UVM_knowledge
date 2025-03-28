@@ -3,7 +3,7 @@
 
 `include "transaction.sv"
 class my_monitor extends uvm_monitor;
-    `uvm_component_utils(my_monitor)
+    `uvm_component_utils(my_monitor) ////use macro to registrate my_monitor to UVM factory list
     function new(string name="",uvm_component parent);
         super.new(name,parent);
     endfunction

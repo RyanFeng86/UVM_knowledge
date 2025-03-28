@@ -1,0 +1,42 @@
+# Compile of agent.sv was successful.
+# Compile of driver.sv was successful.
+# Compile of env.sv was successful.
+# Compile of monitor.sv was successful.
+# Compile of sequence.sv was successful.
+# Compile of sequencer.sv was successful.
+# Compile of testcase.sv was successful.
+# Compile of testcase_da3.sv was successful.
+# Compile of testcase_inst_da3.sv was successful.
+# Compile of top_simulation.sv was successful.
+# Compile of transaction.sv was successful.
+# Compile of transaction_da3.sv was successful.
+# Compile of driver_count.sv failed with 2 errors.
+# Compile of testcase_drive_count.sv was successful.
+# 14 compiles, 1 failed with 2 errors.
+# Compile of agent.sv was successful.
+# Compile of driver.sv was successful.
+# Compile of env.sv was successful.
+# Compile of monitor.sv was successful.
+# Compile of sequence.sv was successful.
+# Compile of sequencer.sv was successful.
+# Compile of testcase.sv was successful.
+# Compile of testcase_da3.sv was successful.
+# Compile of testcase_inst_da3.sv was successful.
+# Compile of top_simulation.sv was successful.
+# Compile of transaction.sv was successful.
+# Compile of transaction_da3.sv was successful.
+# Compile of driver_count.sv was successful.
+# Compile of testcase_drive_count.sv was successful.
+# 14 compiles, 0 failed with no errors.
+do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 22:46:03 on Mar 27,2025
+# vlog -reportprogress 300 -sv top_simulation.sv 
+# -- Compiling program test
+# ** Note: (vlog-2286) transaction.sv(4): Using implicit +incdir+/usr/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# 
+# Top level modules:
+# 	test
+# End time: 22:46:04 on Mar 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

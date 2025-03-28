@@ -5,7 +5,7 @@
 //`include "sequencer.sv"
 
 class my_driver extends uvm_driver #(my_transaction);   //assign driver's transaction type using my_transaction as a parameter
-    `uvm_component_utils (my_driver)
+    `uvm_component_utils (my_driver) ////use macro to registrate my_driver to UVM factory list
 
     function new(string name="my_driver",uvm_component parent);//use parent pass object and build the UVM structure tree layer by layer. If you check agent, when creating the driver, this parameter assigns 'this'. 
 							       //You can also check monitor and sequencer, in this way, the UVM tree is built

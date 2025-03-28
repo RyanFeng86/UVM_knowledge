@@ -1,0 +1,11 @@
+program automatic test;
+    //`include "testcase.sv"
+    `include "testcase_da3.sv"
+    `include "transaction_da3.sv"
+    `include "testcase_inst_da3.sv"
+    `include "testcase_drive_count.sv"
+
+    initial begin
+        run_test();
+    end
+endprogram
